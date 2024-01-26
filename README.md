@@ -17,21 +17,21 @@ STEPS
    
     ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/84d6ed67-fccc-4586-bc57-436e831a0f22)
   	
-5.  Created a Data Factory studio and launched it. Created data pipelines to load data from the HTTP source to the raw data folder of the Storage Account.
+4.  Created a Data Factory studio and launched it. Created data pipelines to load data from the HTTP source to the raw data folder of the Storage Account.
    
    ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/668a251c-229d-4eb7-a003-abaf0628934a)
    
    ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/f97f3bda-7398-4f2b-bafd-f8661b6bab44)
    
-7.	Created an App Registration to authenticate Data Bricks to access the storage account to load the raw data.
+5.	Created an App Registration to authenticate Data Bricks to access the storage account to load the raw data.
    
    ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/aaf3cb87-727c-4679-a88d-8ff1b9e36d47)
    
-9.	Created a DataBricks studio and launched it. Loaded the data from the Storage Account by mounting the dataset.
+6.	Created a DataBricks studio and launched it. Loaded the data from the Storage Account by mounting the dataset.
     
    ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/3456f779-c582-4026-9713-f0d53e3e8de7)
    
-11.	 Preprocessed the data loaded in Databricks using pyspark. Considering the missing values, changing the data type of the data when required, loaded back the data into the transformed-data folder of Azure storage accounts.
+7.	Preprocessed the data loaded in Databricks using pyspark. Considering the missing values, changing the data type of the data when required, loaded back the data into the transformed-data folder of Azure storage accounts.
 
    Importing pyspark libraries  
    
@@ -41,35 +41,35 @@ STEPS
    
    ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/5119215e-31e8-458d-840b-96f92542065e)
     
-    Displaying the path of the list of folders in that particular container.
+   Displaying the path of the list of folders in that particular container.
     
    ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/32e5ddfc-2490-4256-9039-8572111a8954)
     
-    Type Casting the datatype of the data in files using option.
+   Type Casting the datatype of the data in files using option.
     
    ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/e8212979-f48f-4f5c-bd7e-5c1db7100814)
     
-    Displaying the data of entriesgender file.
+   Displaying the data of entriesgender file.
     
    ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/4943d88b-e96f-444d-a700-493f2b64e67e)
     
-    Displaying the schema of entriesgender file.
+   Displaying the schema of entriesgender file.
     
    ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/b5de8a54-199c-43e2-9306-8d9d9581f6e9)
     
-    Displaying the Schema of the medals file.
+   Displaying the Schema of the medals file.
     
    ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/64ef9d6c-3b06-4da6-b193-4e44c9a9a889)
     
-    Using a query to convert the datatype (TypeCasting) 
+   Using a query to convert the datatype (TypeCasting) 
     
    ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/ec439a5c-c4de-4909-90c8-57724aead60b)
     
-    Loading the data to Transformed folder of the Azure storage account.
+   Loading the data to Transformed folder of the Azure storage account.
     
    ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/2b8bb820-98bf-438d-b233-b25c799f0e8e)
     
-    Files loaded in the Transformed folder of Azure Storage Account.
+   Files loaded in the Transformed folder of Azure Storage Account.
     
    ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/b27c570b-b76a-406a-946f-706f461e5ed7)
     
@@ -83,7 +83,7 @@ STEPS
   	
     ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/430ab4a8-0a4f-42a2-aaa6-dcfaee1ac872)
   	
-10.	Created a dashboard in Power BI in Azure Synapse Analytics Studio.
+9. Created a dashboard in Power BI in Azure Synapse Analytics Studio.
     
     ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/9e6d03da-e267-4e96-b488-d7511db83193)
 
