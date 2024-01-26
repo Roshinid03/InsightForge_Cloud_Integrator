@@ -5,8 +5,10 @@ My main goal for this project is to transform my data in GitHub to Azure Cloud, 
 PROJECT OVERVIEW
 
 I have considered the Tokyo Olympics Dataset from Kaggle. The dataset was added to the GitHub account and then data pipelines to transfer data from GitHub to Azure Storage Accounts were created using Azure Data Factory. Created an App Permission and gave access to Databricks to load the data from the storage account and preprocessed and cleaned the data. After the data preprocessing, loaded back the data into the storage account. Created an Azure Synapse Analytics workspace and connected it to Power BI to create the dashboard using the final data.
+
 SERVICES USED
  GitHub, Azure Storage Accounts, Azure Data Factory, Databricks, Azure App Registrations, Azure Synapse Analytics and Power BI.
+
 STEPS
 1.	Downloaded the dataset from Kaggle and loaded the dataset to the GitHub repository.
 2.	Created a Resource Group on Azure Cloud.
