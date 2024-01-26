@@ -35,43 +35,43 @@ STEPS
 
    Importing pyspark libraries  
    
-    ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/7ae5eb7b-9c8b-44ae-9c92-cf204744bf07)
+   ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/7ae5eb7b-9c8b-44ae-9c92-cf204744bf07)
     
    Creating the authentication and creating the connection between Databricks and the storage account. Mounting the raw data from the storage account to data bricks.
    
-    ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/5119215e-31e8-458d-840b-96f92542065e)
+   ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/5119215e-31e8-458d-840b-96f92542065e)
     
     Displaying the path of the list of folders in that particular container.
     
-    ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/32e5ddfc-2490-4256-9039-8572111a8954)
+   ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/32e5ddfc-2490-4256-9039-8572111a8954)
     
     Type Casting the datatype of the data in files using option.
     
-    ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/e8212979-f48f-4f5c-bd7e-5c1db7100814)
+   ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/e8212979-f48f-4f5c-bd7e-5c1db7100814)
     
     Displaying the data of entriesgender file.
     
-    ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/4943d88b-e96f-444d-a700-493f2b64e67e)
+   ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/4943d88b-e96f-444d-a700-493f2b64e67e)
     
     Displaying the schema of entriesgender file.
     
-    ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/b5de8a54-199c-43e2-9306-8d9d9581f6e9)
+   ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/b5de8a54-199c-43e2-9306-8d9d9581f6e9)
     
     Displaying the Schema of the medals file.
     
-    ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/64ef9d6c-3b06-4da6-b193-4e44c9a9a889)
+   ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/64ef9d6c-3b06-4da6-b193-4e44c9a9a889)
     
     Using a query to convert the datatype (TypeCasting) 
     
-    ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/ec439a5c-c4de-4909-90c8-57724aead60b)
+   ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/ec439a5c-c4de-4909-90c8-57724aead60b)
     
     Loading the data to Transformed folder of the Azure storage account.
     
-    ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/2b8bb820-98bf-438d-b233-b25c799f0e8e)
+   ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/2b8bb820-98bf-438d-b233-b25c799f0e8e)
     
     Files loaded in the Transformed folder of Azure Storage Account.
     
-    ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/b27c570b-b76a-406a-946f-706f461e5ed7)
+   ![image](https://github.com/Roshinid03/InsightForge_Cloud_Integrator/assets/150306520/b27c570b-b76a-406a-946f-706f461e5ed7)
     
 8.	Created an Azure Synapse Analytics studio and loaded the data to access using SQL Scripts.
    
